@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>331</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Inicio</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuUsuario">
+    <property name="title">
+     <string>Usuario</string>
+    </property>
+    <addaction name="actionBiblioteca"/>
+    <addaction name="actionRecargar"/>
+    <addaction name="actionPerfil"/>
+    <addaction name="actionCerrarSesion"/>
+   </widget>
+   <widget class="QMenu" name="menuJuegos">
+    <property name="title">
+     <string>Catálogo</string>
+    </property>
+    <addaction name="actionComprar"/>
+    <addaction name="actionAnadirJuego"/>
+    <addaction name="actionAnadirComentario"/>
+   </widget>
+   <widget class="QMenu" name="menuConfig">
+    <property name="title">
+     <string>Configuración</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuInformes">
+    <property name="title">
+     <string>Informes</string>
+    </property>
+   </widget>
+   <addaction name="menuUsuario"/>
+   <addaction name="menuJuegos"/>
+   <addaction name="menuConfig"/>
+   <addaction name="menuInformes"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBiblioteca">
+   <property name="text">
+    <string>Ver biblioteca</string>
+   </property>
+  </action>
+  <action name="actionRecargar">
+   <property name="text">
+    <string>Recargar saldo</string>
+   </property>
+  </action>
+  <action name="actionPerfil">
+   <property name="text">
+    <string>Mostrar perfil</string>
+   </property>
+  </action>
+  <action name="actionComprar">
+   <property name="text">
+    <string>Comprar juego</string>
+   </property>
+  </action>
+  <action name="actionAnadirJuego">
+   <property name="text">
+    <string>Añadir juego</string>
+   </property>
+  </action>
+  <action name="actionCerrarSesion">
+   <property name="text">
+    <string>Cerrar sesión</string>
+   </property>
+  </action>
+  <action name="actionAnadirComentario">
+   <property name="text">
+    <string>Añadir comentario</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

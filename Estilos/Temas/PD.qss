@@ -1,0 +1,74 @@
+QMainWindow{
+	background-color:#DEDAFF
+}
+QWidget{
+	background-color:#DEDAFF
+}
+QDialog{
+	background-color:#DEDAFF
+}
+QMenuBar{
+	background-color:#6631D7;
+	color:#000000
+}
+QMenuBar::item:selected{
+	background-color:#DEDAFF
+}
+QMenu{
+	background-color:#6631D7;
+	color:#000000;
+	font-size:{{menu}}
+}
+QMenu::item:selected{
+	background-color:#DEDAFF
+}
+QLineEdit{
+	background-color:#D3D3D3;
+	font-size:{{button}}
+}
+QPushButton{
+	background-color:#D3D3D3;
+	font-size:{{button}}
+}
+QListWidget{
+	border-radius:60px;
+	border-color:#FFFFFF;
+	font-size:{{button}}
+}
+QTableWidget{
+	border-radius:60px;
+	border-color:#FFFFFF;
+	font-size:{{button}}
+}
+QComboBox{
+	background-color:#D3D3D3;
+	font-size:{{button}}
+}
+QSpinBox{
+	background-color:#D3D3D3;
+	font-size:{{button}}
+}
+QRadioButton{
+	background-color:transparent;
+	border:none;
+	font-size:{{button}};
+}
+QRadioButton::indicator{
+	border-radius:8px;
+	background-color:#6631D7;
+	border: 2px solid #DEDAFF
+}
+QRadioButton::indicator:hover{
+	background-color:#D3D3D3;
+}
+QRadioButton::indicator::checked {
+   	background-color:#DEDAFF;
+	background-clip:content;
+	border-color:#6631D7;
+}
+QLabel{
+	font-size:{{label}}
+}
+QLabel#lblTitulo{
+	font-size:{{titulo}}
+}
