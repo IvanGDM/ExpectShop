@@ -1,7 +1,7 @@
 [Setup]
 AppName=ExpectShop
 AppVersion=1.0
-AppPublisher=IvanElCrack
+AppPublisher=Iván García de Marco
 DefaultDirName={autopf}\ExpectShop
 DefaultGroupName=ExpectShop
 OutputDir=Instalador
